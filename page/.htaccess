@@ -1,0 +1,8 @@
+# Block web access to the directory
+Options -Indexes
+Deny from all
+
+<Files "*">
+    # Allow file uploads to this directory
+    Allow from all
+</Files>
