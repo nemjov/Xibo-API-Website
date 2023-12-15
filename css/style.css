@@ -1,0 +1,48 @@
+body{
+    height:100vh;
+}
+
+#header_div{
+    display:flex;
+    justify-content:center;
+    Background-color:cornflowerblue;
+
+}
+
+#debug_div{
+    overflow-wrap:anywhere;
+    Background-color:pink;
+
+}
+.centered{
+    display:flex;
+    justify-content: center;
+}
+
+
+.centered_div{
+    margin: auto;
+    width: 25%;
+}
+.LoginBtn {
+    width: 10vw;
+    height: 10vh;
+}
+
+#executeButton{
+    width: 20vw;
+    height: 10vh;
+}
+/* UPLOADER */
+
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: lightyellow;
+}
+
+.drop-area.dragged-over {
+    background-color: #14bf14
+}
